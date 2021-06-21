@@ -1,0 +1,35 @@
+/**
+ * Doc - This file  is used to import all CSS files of different components
+ * Author -  Akash Vishwakarma
+ * Date - 21/06/2021
+ */
+ @import "./common/fonts";
+ @import "./common/pixel";
+ @import "./common/_colour.scss";
+
+.headerWrapper{
+    background-color: $color-light;
+    padding: 10px;
+    .page-title{
+        text-transform: uppercase;
+    }
+    .sortBtn{
+        float: right;
+        margin:$px25 $px10;
+        .MuiSvgIcon-root{
+            padding-right: $px5;
+        }
+    }
+}
+.cardWrapper{
+    padding: $px10;
+    .customCardHeader{
+        .MuiCardHeader-title{
+            font-size: $px20;
+        }
+    }
+    .orderBtn{
+        margin-left: $px5;
+    }
+    
+}
